@@ -15,21 +15,41 @@ const assertObjectsEqual = require('./assertObjectsEqual');
 const assertEqual = require('./assertEqual');
 const assertArraysEqual = require('./assertArraysEqual');
 
+// module.exports = {
+// head,
+// tail,
+// middle,
+// without,
+// takeUntil,
+// map, 
+// flatten, 
+// findKeyByValue,
+// findKey,
+// eqObjects,
+// eqArrays, 
+// countOnly,
+// countLetters,
+// assertObjectsEqual,
+// assertEqual,
+// assertArraysEqual
+// };
+
+
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  without: without,
-  takeUntil: takeUntil,
-  map: map, 
-  flatten: flatten, 
-  findKeyByValue: findKeyByValue,
-  findKey: findKey,
-  eqObjects: eqObjects,
-  eqArrays: eqArrays, 
-  countOnly: countOnly,
-  countLetters: countLetters,
-  assertObjectsEqual: assertObjectsEqual,
-  assertEqual: assertEqual,
-  assertArraysEqual: assertArraysEqual
+  head:   'head',
+  tail:   'tail',
+  middle: 'middle',
+  without: 'without',
+  takeUntil: 'takeUntil',
+  map: 'map', 
+  flatten: 'flatten', 
+  findKeyByValue: 'findKeyByValue',
+  findKey: 'findKey',
+  eqObjects: 'eqObjects',
+  eqArrays: 'eqArrays', 
+  countOnly: 'countOnly',
+  countLetters: 'countLetters',
+  assertObjectsEqual: 'assertObjectsEqual',
+  assertEqual: 'assertEqual',
+  assertArraysEqual: 'assertArraysEqual'
 };

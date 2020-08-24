@@ -7,6 +7,6 @@ const head = function (array) {
 
 // head([1, 2, 3, 4, 5]);
 // head(['hello', 'this', 'is', 'an', 'array']);
-// head(['p', 'i', 'p']);
+// console.log(head(['p', 'i', 'p']));
 
 module.exports = head;
