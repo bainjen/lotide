@@ -44,4 +44,4 @@ console.log(findKey({
    // console.log('key; ', key);
     // console.log('object[key]; ', object[key]);
     // console.log(callback(object.key))
-    // console.log('~~~~~~~~~~')
+    // console.log('~~~~~~~~~~')g

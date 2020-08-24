@@ -34,7 +34,6 @@ const data3 = ['goose', 'gibbon', 'snail', 'snail', 'hippo'];
 
 const takeUntil = function(array, callback) {
   const results = [];
-
   for (let item of array) {
 
     if (!callback(item)) {
