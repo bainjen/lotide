@@ -11,6 +11,7 @@ const eqObjects = require('./eqObjects');
 const eqArrays = require('./eqArrays');
 const countOnly = require('./countOnly');
 const countLetters = require('./countLetters');
+const letterPositions = require('../letterPositions');
 const assertObjectsEqual = require('./assertObjectsEqual');
 const assertEqual = require('./assertEqual');
 const assertArraysEqual = require('./assertArraysEqual');
@@ -29,6 +30,7 @@ eqObjects,
 eqArrays, 
 countOnly,
 countLetters,
+letterPositions,
 assertObjectsEqual,
 assertEqual,
 assertArraysEqual

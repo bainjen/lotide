@@ -38,27 +38,6 @@ const b = { a: 1, b: 2, c: 3, d: 4 };
 const c = { a: 3, b: 2 };
 
 assertObjectsEqual(a, b);
-// assertObjectsEqual(a, c);
+assertObjectsEqual(a, c);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const assertArraysEqual = function (arrayOne, arrayTwo) {
-//   if (eqArrays(arrayOne, arrayTwo)) {
-//     console.log(`✅✅✅Assertion Passed: two arrays are equal.`);
-//   } else {
-//     console.log(`🛑🛑🛑Assertion Failed: two arrays are not equal.`);
-//   }
-   
-// };
