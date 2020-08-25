@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@bainjen/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "a mini clone of the lodash library created for learning purposes.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/bainjen/lotide.git"
   },
-  "author": "",
+  "author": "Jennifer Bain",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bainjen/lotide/issues"
